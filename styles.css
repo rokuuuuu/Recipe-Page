@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+.content-container {
+  display: block;
+  background-color: hsl(0, 0%, 100%);
+  width: 700px;
+  margin: 50px auto 50px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.img-cont {
+  display: block;
+  width: 650px;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.ome {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.main {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.intro-cont {
+  width: 100%;
+}
+
+.title {
+  display: inline-block;
+  margin: 15px 0 18px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Young Serif", serif;
+}
+
+.desc {
+  font-family: "Outfit", sans-serif;
+  margin: 0 0 30px 0;
+  width: 630px;
+}
+
+.prep-time-cont {
+  width: 630px;
+  padding: 15px 10px;
+  background-color: hsl(330, 100%, 98%);
+  font-family: "Outfit", sans-serif;
+  border-radius: 15px;
+}
+
+.prep-title {
+  display: inline-block;
+  margin: 10px 0 10px 20px;
+  color: hsl(332, 51%, 32%);
+  font-family: "Outfit", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.prepLiCont {
+  margin: 0 0 0 5px;
+}
+
+.prepLiCont li {
+  margin-bottom: 10px;
+}
+
+.ingre-cont {
+  font-family: "Outfit", sans-serif;
+  width: 100%;
+}
+
+.ingre-steps {
+  margin-bottom: 35px;
+  margin-left: -18px;
+}
+
+.ingre-steps li {
+  margin-bottom: 10px;
+}
+
+.ingre-title {
+  display: inline-block;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.spacing-ingre {
+  position: relative;
+  left: 20px;
+}
+
+.list-style-color {
+  list-style-type: square;
+}
+
+.list-style-color::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.spacing {
+  position: relative;
+  left: 15px;
+}
+
+.instr-cont {
+  font-family: "Outfit", sans-serif;
+  width: 100%;
+}
+
+.instr-title {
+  display: inline-block;
+  margin-top: 15px;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.instr-steps {
+  width: 100%;
+  margin-bottom: 35px;
+  margin-left: -15px;
+}
+
+.instr-steps li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.instr-steps li {
+  width: 600px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.nutri-cont {
+  font-family: "Outfit", sans-serif;
+}
+
+.nutri-title {
+  display: inline-block;
+  margin-top: 15px;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.nutri-rows {
+  border-bottom: 1px solid rgb(193, 193, 193);
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+div.noborder-bottom {
+  border-bottom: none;
+}
+
+.left-column {
+  display: inline-block;
+  margin-left: 30px;
+  width: 302px;
+}
+
+.right-column {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+/* Mobile View */
+@media (max-width: 376px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+  }
+
+  .content-container {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    border-radius: 0;
+  }
+
+  .img-cont {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .ome {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .main {
+    width: 375px;
+  }
+
+  .intro-cont {
+    width: 375px;
+  }
+
+  .title-desc-cont {
+    margin-left: 30px;
+  }
+
+  .title {
+    display: inline-block;
+    width: 300px;
+  }
+
+  .desc {
+    width: 315px;
+  }
+
+  .prep-time-cont {
+    background-color: white;
+    width: 375px;
+    padding: 0;
+  }
+
+  .prepTitle-ul {
+    width: 315px;
+    margin-left: 33px;
+    background-color: hsl(330, 100%, 98%);
+  }
+
+  .prepLiCont {
+    width: 220px;
+    padding-bottom: 5px;
+  }
+
+  .ingre-cont {
+    width: 375px;
+  }
+
+  .ingreTitle-ul {
+    margin-left: 28px;
+  }
+
+  .ingre-steps {
+    width: 290px;
+  }
+
+  hr {
+    width: 85%;
+  }
+
+  .instr-cont {
+    width: 375px;
+  }
+
+  .instrTitle-ol {
+    width: 335px;
+    margin-left: 24px;
+  }
+
+  ol.instr-steps {
+    width: 320px;
+  }
+
+  ol.instr-steps li {
+    width: 270px;
+  }
+
+  .nutri-cont {
+    width: 375px;
+  }
+
+  .nutriTitle-info {
+    padding-bottom: 25px;
+  }
+
+  .nutri-title {
+    margin-left: 23px;
+  }
+
+  .nutri-info {
+    margin-left: 23px;
+    width: 300px;
+  }
+
+  .nutri-rows {
+    margin-left: 22px;
+  }
+
+  .left-column {
+    width: 132px;
+  }
+}
